@@ -1,0 +1,7 @@
+Bir fotoğrafta bir rengin aniden başka bir renge geçtiği yerler kenardır. Prewitt ve Sobel, bu sınır çizgilerini bulmak için fotoğrafın üzerinde dolaşan iki farklı süzgeçtir.
+
+Fotoğraftaki küçük pürüzleri ve tozları çizgi sanıp yanılmasınlar diye önce resmi hafifçe yumuşatıp temizleriz.
+
+İkisinin arasındaki temel fark şudur: Prewitt etraftaki tüm noktalara aynı önemi verir, bu yüzden çizgileri biraz zayıf ve soluk kalır. Sobel ise tam ortadaki noktalara iki kat daha fazla önem verir; bu sayede ufak tefek lekeleri görmezden gelir ve çizgileri çok daha parlak, kalın ve net çıkarır.
+
+Bizim duvar fotoğrafında da ikisi tuğla aralarını buldu ama Sobel’in çizdiği çizgiler Prewitt’e göre çok daha temiz ve belirgindi.
